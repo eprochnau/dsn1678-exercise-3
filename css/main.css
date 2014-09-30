@@ -62,12 +62,20 @@ body {
   cursor: pointer;
 }
 
+.details-left {
+	opacity: 0;
+}
+
+.details-right {
+	opacity: 0;
+}
+
 .details-left [data-state="active"] {
-	display: block;
+	opacity: 1;
 }
 
 .details-right [data-state="active"] {
-	display: block;
+	opacity: 1;
 }
 
 .sales__title {
