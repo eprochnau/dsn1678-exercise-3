@@ -181,14 +181,10 @@ body {
   text-indent: 100%;
 }
 
-.sales-left:click .details-left {
-	top: 10em;
-	opacity: 1;
-}
 
 @-webkit-keyframes slide-up {
 	0% {
-		top: 10em;
+		top: 20em;
 	}
 	
 	100% {
@@ -198,7 +194,7 @@ body {
 
 @keyframes slide-up {
 	0% {
-		top: 10em;
+		top: 20em;
 	}
 	
 	100% {
