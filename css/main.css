@@ -62,6 +62,14 @@ body {
   cursor: pointer;
 }
 
+.details-left [data-state="active"] {
+	display: block;
+}
+
+.details-right [data-state="active"] {
+	display: block;
+}
+
 .sales__title {
   bottom: 1rem;
   left: 0;
