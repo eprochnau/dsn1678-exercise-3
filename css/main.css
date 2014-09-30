@@ -73,13 +73,17 @@ body {
 .details-left[data-state="active"] {
 	opacity: 1;
 	
-	transition: 200ms linear;
+	transition: all 250ms linear;
+	-webkit-animation: slide-up 1000ms linear;
+	animation: slide-up 1000ms linear;
 }
 
 .details-right[data-state="active"] {
 	opacity: 1;
 	
-	transition: 200ms linear;
+	transition: all 200ms linear;
+	-webkit-animation: slide-up 1000ms linear;
+	animation: slide-up 1000ms linear;
 }
 
 .sales__title {
@@ -175,4 +179,29 @@ body {
   background: #555;
 
   text-indent: 100%;
+}
+
+.sales-left:click .details-left {
+	top: 10em;
+	opacity: 1;
+}
+
+@-webkit-keyframes slide-up {
+	0% {
+		top: 10em;
+	}
+	
+	100% {
+		top: 0;
+	}
+}
+
+@keyframes slide-up {
+	0% {
+		top: 10em;
+	}
+	
+	100% {
+		top: 0;
+	}
 }
