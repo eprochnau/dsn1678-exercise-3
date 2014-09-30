@@ -70,12 +70,16 @@ body {
 	opacity: 0;
 }
 
-.details-left [data-state="active"] {
+.details-left[data-state="active"] {
 	opacity: 1;
+	
+	transition: 200ms linear;
 }
 
-.details-right [data-state="active"] {
+.details-right[data-state="active"] {
 	opacity: 1;
+	
+	transition: 200ms linear;
 }
 
 .sales__title {
